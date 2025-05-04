@@ -10,7 +10,4 @@ terraform {
 
 provider "aws" {
   region = var.aws_region
-  
-  # Uncomment to use a specific profile from your AWS credentials
-  # profile = "your-profile-name"
 }
