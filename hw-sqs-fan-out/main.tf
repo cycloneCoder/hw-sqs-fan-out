@@ -102,7 +102,7 @@ resource "aws_sns_topic_subscription" "image_processing_subscription" {
 }
 
 resource "aws_iam_role" "lambda_role" {
-  name = "lambda-function-admin-access"
+  name = "lambda-function-admin-access-tf"
   
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
